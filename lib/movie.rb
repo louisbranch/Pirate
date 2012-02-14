@@ -2,7 +2,7 @@ require 'imdb'
 
 class Movie
 
-  attr_accessor :title, :genres, :rating, :year
+  attr_accessor :title
 
   def initialize(name)
     @name = name
@@ -18,7 +18,6 @@ class Movie
 
   def extract_info(imdb)
     self.title = imdb.title
-    self.genres = imdb.director
   end
 
 end

@@ -13,11 +13,4 @@ describe Movie do
     movie.title.should eq('J. Edgar (2011)')
   end
 
-  it "has a title" do
-    movie.rating.should eq('J. Edgar (2011)')
-  end
-
-  it "has a title" do
-    movie.genres.should eq('J. Edgar (2011)')
-  end
 end
