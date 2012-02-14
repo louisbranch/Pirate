@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rake'
 gem 'nokogiri'
 gem 'imdb'
 
-group :test, :development do
+group :test do
+  gem 'rake'
   gem "rspec", '>= 2'
   gem "guard-rspec"
   gem 'libnotify'
