@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'nokogiri'
-gem 'imdb'
+gem 'movies'
 
 group :test do
   gem 'rake'

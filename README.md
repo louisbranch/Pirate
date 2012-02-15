@@ -1,2 +1,2 @@
-[![Build Status](https://secure.travis-ci.org/luizbranco/pirate.png)](http://travis-ci.org/luizbranco/pirate)
+[![Build Status](https://secure.travis-ci.org/luizbranco/Pirate.png)](http://travis-ci.org/luizbranco/Pirate)
 HTML Parser using nokogiri
