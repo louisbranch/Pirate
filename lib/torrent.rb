@@ -9,7 +9,7 @@ class Torrent
   end
 
   def create_movie
-   self.movie = Movie.new('J Edgar 2011 DVDRip XviD-PADDO')
+    self.movie = Movie.new(@name)
   end
 
 end
